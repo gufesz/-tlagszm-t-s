@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    height: 300px;
+    padding-top: 60px;
+}
+
+canvas {
+    background-color: #f1f1f1;
+    width: 100%;
+    max-width:600px;
+    max-height: 400px;
+}
+
+.csárt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 400px;
+}
+
+table, td {
+    border: 1px solid #ccc;
+}
+
+input[type="text"]{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#submit {
+    width: 150px;
+    height: 30px;
+    margin-top: 30px;
+}
+
+.nevandtant {
+    margin-bottom: 15px;
+}

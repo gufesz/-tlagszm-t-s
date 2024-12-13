@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Havi átgag Diagram</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chart-container">
+        <canvas id="myChart"></canvas>
+    </div>
+    <br>
+    <div class="container">
+        <div class="nevandtant">
+            <input type="text" id="nev" placeholder="Név">
+            <input type="text" id="tantargy" placeholder="Tantárgy">
+        </div>
+        <div class="haviatlag">
+            <div>
+                <span>Szeptember</span>
+                <input id="jegy1" placeholder="Jegyek (vesszővel elválasztva)"></input>
+            </div>
+            <div>
+                <span>Október</span>
+                <input id="jegy2" placeholder="Jegyek (vesszővel elválasztva)"></input>
+            </div>
+            <div>
+                <span>November</span>
+                <input id="jegy3" placeholder="Jegyek (vesszővel elválasztva)"></input>
+            </div>
+            <div>
+                <span>December</span>
+                <input id="jegy4" placeholder="Jegyek (vesszővel elválasztva)"></input>
+            </div>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
